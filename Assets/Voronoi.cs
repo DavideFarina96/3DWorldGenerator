@@ -8,11 +8,11 @@ public class Voronoi : MonoBehaviour
     public int nPoints = 10;
     public int nHeightPoints = 10;
     public int squareSize = 500;
-    float maxHeight = 40.0f;
-    float noise = 0.2f;
+    public float maxHeight = 40.0f;
+    public float noise = 0.2f;
 
     // Main voronoi variables
-    public List<Vector2Int> points;
+    List<Vector2Int> points;
     float[,] distances;
     float maxDist = 0;
     Texture2D detailVoronoiTexture;

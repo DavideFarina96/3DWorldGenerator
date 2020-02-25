@@ -572,7 +572,8 @@ MonoBehaviour:
   nPoints: 250
   nHeightPoints: 10
   squareSize: 250
-  points: []
+  maxHeight: 40
+  noise: 0.2
   heightPoints: []
   material: {fileID: 2100000, guid: 11a82fd03107207478e7f1ef09eb03a9, type: 2}
   meshObject: {fileID: 1702263035}
